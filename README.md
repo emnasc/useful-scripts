@@ -14,8 +14,8 @@ git update-index --no-assume-unchanged <arquivo>
 
 Para fazer o mesmo com pasta, basta usar a flag '-r'(recursive):
 ``` shell
-git update-index -r --assume-unchanged <file>
-git update-index -r --no-assume-unchanged <file>
+git update-index -r --assume-unchanged <arquivo>
+git update-index -r --no-assume-unchanged <arquivo>
 ```
 
 ----
@@ -38,12 +38,12 @@ bundle exec rake db:reset RAILS_ENV=test
 
 Para deletar uma branch local:
 ``` shell
-git branch -D <branch name>
+git branch -D <nome do branch>
 ```
 
 Para deletar uma branch remota:
 ``` shell
-git push -d <remote name> <branch name>
+git push -d <nome do remote> <nome do branch>
 ```
 
 ----
